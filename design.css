@@ -1,0 +1,86 @@
+/* General Reset */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply blue background to the entire page */
+body {
+    background-color: #131347; /* Blue background */
+    font-family:20 db,sans-serif;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #131347;
+    color: #c41d1d;
+    padding: 1rem 0;
+}
+
+/* Center and style the image */
+img {
+    display: block;         /* Makes the image a block element */
+    margin: 0 auto;         /* Centers the image horizontally */
+    max-width: 100%;        /* Ensures the image is responsive */
+    height: auto;   
+    background-color: #131347;              /* Maintains aspect ratio */
+    padding: 3rem 0;
+}
+
+/* Main Section Styling */
+main {
+    text-align: left;
+    background-color: #131347;
+    color: #fff;
+    font-size: 18px;
+    padding: 2rem 0;
+    
+}
+/* nav */
+li {
+     list-style: none; display: inline-block;
+}
+/* header 2 */
+h2 {
+    text-align: left;
+    background-color: #131347;
+    color: #fff;
+    font-size: 25px
+}
+/* header 3 */
+ h3 {   
+    text-align: left;
+    background-color: #131347;
+    color: #fff;
+    font-size: 25px
+}
+  /* header 4 */
+ h4 {   
+    text-align: left;
+    background-color: #131347;
+    color: #fff;
+    font-size: 25px
+}
+/* header 5 */
+ h5 {   
+    text-align: left;
+    background-color: #131347;
+    color: #fff;
+    font-size: 25px
+} 
+p {
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px; 
+    margin-bottom: 4em; /* Adjust the value to change spacing */
+  }
+
+/* Footer Styling */
+footer {
+    text-align: lelf;
+    color: #fff;
+    padding: 20rem 0;
+}
